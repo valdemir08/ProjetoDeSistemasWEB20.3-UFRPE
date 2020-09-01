@@ -1,0 +1,120 @@
+body{
+    /**background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f9935b31-a32a-49c4-8149-59ba62895575/3dddeca3-02c5-47dc-8de7-19e7392a370a/BR-pt-20200824-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    font-family: monospace;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+ }
+
+.background{
+    position: relative;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f9935b31-a32a-49c4-8149-59ba62895575/3dddeca3-02c5-47dc-8de7-19e7392a370a/BR-pt-20200824-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(60%)
+    
+}
+
+.sign_in{
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 60px;
+    color: white;
+    font-weight: bold; 
+}
+
+.black_square{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2%;
+    width: 500px;
+    height: 550px;
+    /*opacity: 0.9;*/
+
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -275px;
+    position: absolute;
+}
+
+.info_collect {
+    color: rgb(255, 255, 255);
+    width: 380px;
+    height: 50px;
+    margin-left: 60px;
+    background-color: rgb(63, 63, 63);
+    border-color: rgb(63, 63, 63);
+    border-radius: 3%;
+    font-size: 20px;
+    text-indent: 20px;
+
+}
+
+.submit{
+
+    color: white;
+    width: 385px;
+    height: 50px;
+    margin-left: 60px;
+    background-color: red;
+    border-color: red;
+    border-radius: 3%;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.check{
+    color: gray;
+    margin-left: 60px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.check_label{
+    display:inline;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.help{
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 2px;
+    color: gray;
+
+}
+
+.facebook{
+    margin-left: 60px;
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.text{
+    color: gray;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+.text_sign{
+    color: white;
+    font-size: 14px;
+    padding-top: 20px;
+    text-decoration: none;
+}
