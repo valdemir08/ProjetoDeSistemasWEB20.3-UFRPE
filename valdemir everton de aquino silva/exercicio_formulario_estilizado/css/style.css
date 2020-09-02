@@ -1,0 +1,14 @@
+.background{
+    background-image: linear-gradient(gray, white);
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.radius{
+    border-radius: 10px;
+}
+
+.quemsoueu{
+    width: 300px;
+    border-radius: 10px;
+}

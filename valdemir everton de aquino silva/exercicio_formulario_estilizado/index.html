@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>exercicio_2</title>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body class="background">
+
+
+
+    <div>
+        <form name="Coleta de dados" action="http://www.atdsistemas.com.br/web/formulario/" method="post" enctype="multipart/form-data">
+            <h2>Criar conta</h2>
+            
+            <!-- INFORMAÇÕES PESSOAIS-->
+            
+            <fieldset class="esquerda">
+
+                <legend>
+                    Informações Pessoais
+                </legend>
+                <div>
+                    <p>
+                    <label for="nome"> Primeiro Nome: </label>
+                    <input class="radius" type="text" name="nome" id = "nome" placeholder="Digite seu nome aqui"/>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="foto"> Foto: </label>
+                    <input type="file" name="foto" id = "foto"/>
+                </p>
+                </div>
+                <div>
+                    <p>
+                    <label for="endereco">Endereço: </label>
+                    <input class="radius" type="text" name="endereco" id="endereco" placeholder="Digite seu endereço aqui"/>
+                </p>
+                </div>
+                <div>
+                    <p>
+                    <label for = "sexo"> Sexo </label><br>
+                    <input type="radio" name="sexo" value="masculino"/>Masculino<br>
+                    <input type="radio" name="sexo" value="feminino"/>Feminino<br>
+                    <input type="radio" name="sexo" value="nao_definido"/>Não definido<br>
+                </p>
+                <div>
+                    <p>
+                    <label for="formacao">Nível de Formação Acadêmica Concluído </label>
+                    <select type = "text" name="formacao" id="formacao">
+                        <option>Nenhuma formação</option>
+                        <option>Fundamental</option>
+                        <option>Médio</option>
+                        <option>Superior</option>
+                        <option>Pós-graduação</option>
+                        <option>Mestrado</option>
+                        <option>Doutorado</option>
+                    </select>
+                </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="descricao">Quem sou eu?</label><br>
+
+                        <textarea class="quemsoueu" name="descricao" id="descricao" placeholder="Fale um pouco sobre você..."></textarea>
+                    </p>
+                </div>
+            </fieldset>
+            <p>
+
+
+
+
+                <!--REDES SOCIAIS-->
+
+            <fieldset>
+                <legend>Redes Sociais</legend>
+
+                <div>
+                    <p>
+                    <label for="twitter"> Twitter: </label>
+                    <input class="radius" type="text" name="twitter" id = "twitter" placeholder="Digite seu twitter aqui"/>
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                    <label for="instagram"> Instagram: </label>
+                    <input class="radius" type="text" name="instagram" id = "instagram" placeholder="Digite seu instagram aqui"/>
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                    <label for="facebook"> Facebook: </label>
+                    <input class="radius" type="text" name="facebook" id = "facebook" placeholder="Digite seu facebook aqui"/>
+                    </p>
+                </div>
+            </fieldset>
+            </p>
+            
+            <!-- INFORMAÇÕES DE LOGIN-->
+            <p>
+            <fieldset>
+                <legend>Informações de Login</legend>
+
+                <div>
+                    <p>
+                    <label for="email">Email: </label>
+                    <input class="radius" type="email" name="email" id="email" placeholder="Digite seu email aqui"/>
+                </p>
+                </div>
+
+                <div>
+                    <p>
+                    <label for="senha">Senha: </label>
+                    <input class="radius" type="senha" name="senha" id="senha" placeholder="Digite sua senha aqui"/>
+                </p>
+                <input type="checkbox" name="lembrar"/> Lembrar-me
+            </fieldset>
+            </p>
+            <div>
+                <button type="reset" > Limpar Campos</button>
+                <button type="submit" > Enviar </button>
+
+            </div>
+
+        </form>
+
+
+
+
+
+
+    </div>
+</body>
+</html>
