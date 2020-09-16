@@ -1,0 +1,37 @@
+.botao{
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+    border-color: rgba(214, 213, 213, 0.342);
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.campo{
+    width: 200px;
+    height: 40px;
+}
+
+html,body{
+    background-color: rgb(48, 48, 48);
+    margin: 0px;
+    height: 100%;
+}
+
+.group{
+    width: 350px;
+    height: 350px;
+    left: 50%;
+    top: 50%;
+    margin-left: -175px ;
+    margin-top: -175px ;
+    position: absolute;
+    
+}
+
+.counter{
+    margin-left: 10px;
+    font-size: 80px;
+    color: green;
+    font-weight: bold;
+}
