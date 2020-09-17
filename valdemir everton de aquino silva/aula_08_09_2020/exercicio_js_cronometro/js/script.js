@@ -19,7 +19,8 @@ function iniciarParar(){
     if(ativar){
         clearInterval(intervalo);
         ativar = false;
-        button.innerHTML = "<div>play<div>"
+        button.innerHTML = "<div>play<div>";
+        entrada.disabled = false;
         
     }else{
         hora = parseInt(entrada.value / 60);
@@ -28,6 +29,7 @@ function iniciarParar(){
         intervalo = setInterval(function(){calc()},1000);
         ativar = true;
         button.innerHTML = "<div>stop</div>"
+        entrada.disabled = true;
     }
 
 }

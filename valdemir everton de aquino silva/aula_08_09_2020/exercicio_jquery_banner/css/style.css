@@ -1,0 +1,28 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(59, 59, 59);
+}
+
+img{
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 78vw;
+    
+}
+
+ .buttonleft{
+    width: 10%;
+    height: 100vh;
+    font-size: 100px;
+    background-color: rgb(119, 117, 117);   
+}
+
+ .buttonright{
+    width: 10%;
+    height: 100vh;
+    font-size: 100px;
+    background-color: rgb(119, 117, 117);
+} 
